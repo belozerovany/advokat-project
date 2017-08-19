@@ -54,7 +54,6 @@ function hendler() {
 		var nextLi = li.previousElementSibling;
 
 		if(nextLi.classList.contains('advantages-main__ul--li')){
-			console.log('nextLi',nextLi);
 			li.classList.remove('choose-advantages');
 			nextLi.classList.add('choose-advantages');
 
